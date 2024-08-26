@@ -1,5 +1,5 @@
 {
-  "name": "Akshay portf",
+  "name": "react-app",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -7,6 +7,8 @@
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^13.0.0",
     "@testing-library/user-event": "^13.2.1",
+    "ajv": "^8.17.1",
+    "ajv-keywords": "^5.1.0",
     "axios": "^0.27.2",
     "framer-motion": "^6.5.1",
     "react": "^18.2.0",
@@ -19,13 +21,12 @@
     "use-local-storage": "^2.3.6",
     "web-vitals": "^2.1.0"
   },
- "scripts": {
-  "start": "react-scripts start",
-  "build": "cross-env CI=false react-scripts build",
-  "test": "react-scripts test",
-  "eject": "react-scripts eject"
-}
-,
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "cross-env CI=false react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
   "eslintConfig": {
     "extends": [
       "react-app",
