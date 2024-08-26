@@ -1,5 +1,5 @@
 {
-  "name": "gregsithole-react-portfolio",
+  "name": "Akshay portf",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -19,12 +19,13 @@
     "use-local-storage": "^2.3.6",
     "web-vitals": "^2.1.0"
   },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "cross-env CI=false react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
-  },
+ "scripts": {
+  "start": "react-scripts start",
+  "build": "cross-env CI=false react-scripts build",
+  "test": "react-scripts test",
+  "eject": "react-scripts eject"
+}
+,
   "eslintConfig": {
     "extends": [
       "react-app",
